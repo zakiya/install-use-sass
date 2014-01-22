@@ -1,0 +1,10 @@
+name = Sass Demo
+description = Basic Sass Stuff.
+core = 7.x
+engine = phptemplate
+screenshot = screenshot.png
+base theme = seven
+
+; ** STYLESHEETS
+stylesheets[all][] = css/styles.css
+
