@@ -7,4 +7,5 @@ base theme = stark
 
 ; ** STYLESHEETS
 stylesheets[all][] = css/sass-styles.css
+;stylesheets[all][] = css/compass-styles.css
 

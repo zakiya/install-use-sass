@@ -1,0 +1,47 @@
+/* line 12, ../sass/sass-styles.scss */
+body {
+  color: #3a3a39;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* line 17, ../sass/sass-styles.scss */
+h2 {
+  font-family: Georgia, Times, serif;
+}
+
+/* line 21, ../sass/sass-styles.scss */
+a {
+  color: #3d52bb;
+  text-decoration: none;
+}
+
+/* line 30, ../sass/sass-styles.scss */
+#block-system-main-menu ul {
+  background: #3d52bb;
+  border-bottom: 1px solid #3d52bb;
+}
+/* line 33, ../sass/sass-styles.scss */
+#block-system-main-menu ul li {
+  display: inline;
+  list-style-image: none;
+}
+/* line 36, ../sass/sass-styles.scss */
+#block-system-main-menu ul li a {
+  display: inline-block;
+  color: #ffffff;
+}
+
+/* line 52, ../sass/sass-styles.scss */
+.node-teaser {
+  margin-bottom: 20px;
+  padding: 10px 5px 12px;
+  border: 1px dotted #3a3a39;
+}
+
+/* line 61, ../sass/sass-styles.scss */
+.links a, .submitted {
+  background: #ecffdf;
+  font-weight: bold;
+  padding: 3px 5px;
+  margin-bottom: 5px;
+}
