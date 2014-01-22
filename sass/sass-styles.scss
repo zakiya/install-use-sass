@@ -1,74 +1,74 @@
-//******************************//
-//Variables Demo
-//******************************//
-
-$grey: #3a3a39;
-$blue: #3d52bb;
-$ltblue: #808ebb;
-
-$serif-font: Georgia, Times, serif;
-$sans-font:  Helvetica, Arial, sans-serif;
-
-body {
-  color: $grey;
-  font-family: $sans-font;
-}
-
-h2 {
-  font-family: $serif-font;
-}
-
-a {
-  color: $blue;
-  text-decoration: none;
-}
-
-//******************************//
-// Nesting Demo
-//******************************//
-
-#block-system-main-menu ul {
-  background: $blue;
-  border-bottom: 1px solid $blue;
-  li {
-    display: inline;
-    list-style-image: none;
-    a {
-      display: inline-block;
-      color: #ffffff;
-    }
-  }
-}
-
-//******************************//
-// Mixin Demo
-//******************************//
-
-@mixin myboxes($padding) {
-  margin-bottom: $padding*2;
-  padding: $padding $padding/2 $padding*1.2;
-}
-
-.node-teaser {
-  @include myboxes(10px);
-  border: 1px dotted $grey;
-}
-
-//******************************//
-// Silent Selector Demo
-//******************************//
-
-%bold-text {
-  background: #ecffdf;
-  font-weight: bold;
-  padding: 3px 5px;
-  margin-bottom: 5px;
-}
-
-.links a {
-  @extend %bold-text;
-}
-
-.submitted {
-  @extend %bold-text;
-}
+////******************************//
+////Variables Demo
+////******************************//
+//
+//$grey: #3a3a39;
+//$blue: #3d52bb;
+//$ltblue: #808ebb;
+//
+//$serif-font: Georgia, Times, serif;
+//$sans-font:  Helvetica, Arial, sans-serif;
+//
+//body {
+//  color: $grey;
+//  font-family: $sans-font;
+//}
+//
+//h2 {
+//  font-family: $serif-font;
+//}
+//
+//a {
+//  color: $blue;
+//  text-decoration: none;
+//}
+//
+////******************************//
+//// Nesting Demo
+////******************************//
+//
+//#block-system-main-menu ul {
+//  background: $blue;
+//  border-bottom: 1px solid $blue;
+//  li {
+//    display: inline;
+//    list-style-image: none;
+//    a {
+//      display: inline-block;
+//      color: #ffffff;
+//    }
+//  }
+//}
+//
+////******************************//
+//// Mixin Demo
+////******************************//
+//
+//@mixin myboxes($padding) {
+//  margin-bottom: $padding*2;
+//  padding: $padding $padding/2 $padding*1.2;
+//}
+//
+//.node-teaser {
+//  @include myboxes(10px);
+//  border: 1px dotted $grey;
+//}
+//
+////******************************//
+//// Silent Selector Demo
+////******************************//
+//
+//%bold-text {
+//  background: #ecffdf;
+//  font-weight: bold;
+//  padding: 3px 5px;
+//  margin-bottom: 5px;
+//}
+//
+//.links a {
+//  @extend %bold-text;
+//}
+//
+//.submitted {
+//  @extend %bold-text;
+//}
