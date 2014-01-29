@@ -1,0 +1,22 @@
+//******************************//
+//Compass Demo
+//******************************//
+
+//@see http://compass-style.org/examples/compass/css3/gradient/
+
+// This line lets my styles access compass library
+@import "compass";
+
+// This line pulls in my local stylesheet
+@import "sass-styles";
+
+
+.node-readmore a {
+  @include background-image(linear-gradient($ltblue, $blue));
+  @include border-radius(5px);
+  color: white;
+  padding: 5px 10px;
+  &:hover {
+    @include background-image(linear-gradient($blue, $ltblue));
+  }
+}
